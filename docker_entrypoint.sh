@@ -1,7 +1,7 @@
 #!/bin/bash
 
 service dbus start
-service bluetooth start
+service bluetoothd start
 hcitool scan
 bluetoothctl scan on
 bluetoothctl scan off
