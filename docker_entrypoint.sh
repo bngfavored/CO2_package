@@ -2,7 +2,7 @@
 
 service dbus start
 bluetoothd &
-hcitool scan
+hciconfig hci0 up
 bluetoothctl scan on
 bluetoothctl scan off
 bluetoothctl trust 60:C0:BF:48:38:5F
